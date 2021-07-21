@@ -70,3 +70,9 @@ scale_fill_manual(values = c("#a32325", "#dc5053", "#e57d76","#e57d76", "#f0d19d
     plot.caption.position = "plot",
     plot.margin = unit(c(.5, .5, 1, .5), "lines")
   )
+
+ggsave("Drought.png", w = 9 * asp_ratio, h = 17, dpi = 300, type = "cairo-png")
+
+
+# Tidytuesday US Droughts Week 30 -----------------------------------------------------
+# Ivo Villanueva ----------------------------------------------------------
